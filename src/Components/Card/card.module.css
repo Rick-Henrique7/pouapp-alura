@@ -1,0 +1,18 @@
+.card{
+    width: 435px;
+    height:227px;
+    text-align: center;
+    background-color: #2A2C34;
+    align-items: center;
+}
+
+.header{
+    width: 435px;
+    height: 56px;
+    text-align: center;
+    background-color: #33353F;
+}
+
+.body{
+    
+}
