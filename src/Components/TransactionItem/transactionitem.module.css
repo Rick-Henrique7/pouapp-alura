@@ -1,0 +1,18 @@
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--neutral-header);
+    width: 100%;
+}
+.transaction p{
+    margin: 0;
+    color: var(--neutral-text);
+}
+
+.date{
+    color: var(--neutral-text);
+    font-size: 12px;
+    line-height: 16px;
+}

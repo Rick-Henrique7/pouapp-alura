@@ -24,6 +24,7 @@ export const CardBody = ({ children }) => {
     )
 } 
 
+
 Card.Header = CardHeader;
 Card.Body = CardBody;
 

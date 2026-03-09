@@ -1,8 +1,20 @@
 {
   "name": "poupapp",
+  "version": "0.0.1",
   "private": true,
-  "version": "0.0.0",
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "homepage": "https://github.com/Rick-Henrique7/pouapp-alura#readme",
+  "bugs": {
+    "url": "https://github.com/Rick-Henrique7/pouapp-alura/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rick-Henrique7/pouapp-alura.git"
+  },
+  "license": "ISC",
+  "author": "henrique",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

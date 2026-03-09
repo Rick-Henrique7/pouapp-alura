@@ -1,0 +1,36 @@
+/*certo*/
+.list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.button {
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid var(--primary-highlight);
+    color: var(--primary-highlight);
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: var(--primary-highlight);
+    color: var(--neutral-background);
+}
+.actions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

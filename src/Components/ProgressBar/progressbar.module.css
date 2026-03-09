@@ -1,0 +1,21 @@
+.wrapper{
+    width: 9em;
+    background-color: var(--neutral-darker);
+    border-radius: 8px;
+    height: 40px;
+    overflow: hidden; /* serve para garantir que a barra de progresso não ultrapasse os limites do contêiner */
+}
+.filler {
+    width: 75%;
+    height: 100%;
+    background-color: var(--primary-highlight);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--neutral-darker);
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: bold;
+    transition: width 0.3s ease-in-out; /* serve para animar a barra de progresso quando o valor mudar */
+}

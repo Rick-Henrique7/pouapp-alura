@@ -4,10 +4,11 @@ h1{
     font-weight: 700px;
     font-size: 31px;
     line-height: 120%;
+    margin: 10px 0;
 }
 h2{
     color: var(--neutral-text);
-    margin:0;
+    margin:10px 0;
 
 }
 p {
@@ -15,4 +16,5 @@ p {
     margin: 0;
     font-size: 16px;
     line-height: 120%;
+    margin: 10px;
 }
