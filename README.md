@@ -39,31 +39,38 @@ O sistema apresenta um dashboard financeiro com informações organizadas em car
 ---
 
 ## Estrutura do projeto
+```
+poupapp/
 │
 ├── public/
 │
 ├── src/
-│ ├── assets/
-│ └── Components/
-│ ├── Aside/
-│ ├── Banks/
-│ ├── Button/
-│ ├── Card/
-│ ├── CardBig/
-│ ├── Container/
-│ ├── DailyBudget/
-│ ├── Main/
-│ ├── ProgressBar/
-│ ├── SavingsStatus/
-│ ├── SearchInput/
-│ ├── TransactionItem/
-│ ├── Transactions/
-│ └── Typography/
+│   ├── assets/
+│   │
+│   └── Components/
+│       ├── Aside/
+│       ├── Banks/
+│       ├── Button/
+│       ├── Card/
+│       ├── CardBig/
+│       ├── Container/
+│       ├── DailyBudget/
+│       ├── icons/
+│       ├── Main/
+│       ├── ProgressBar/
+│       ├── SavingsSatatus/
+│       ├── SearchInput/
+│       ├── TransactionItem/
+│       ├── Transactions/
+│       └── Typography/
 │
-├── index.html
 ├── package.json
+├── package-lock.json
 ├── vite.config.js
-└── README.md
+├── index.html
+├── README.md
+└── .gitignore
+```
 
 Desenvolvido por Henrique
 Estudante de Engenharia de software.
