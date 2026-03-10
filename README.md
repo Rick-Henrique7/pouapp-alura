@@ -1,16 +1,80 @@
-# React + Vite
+<img width="2127" height="1632" alt="image" src="https://github.com/user-attachments/assets/fdea226b-a2e3-4230-a6da-a9ff56510859" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# PoupApp
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Aplicação web para controle de finanças pessoais. O sistema permite visualizar orçamento diário disponível, acompanhar o progresso de economia e consultar movimentações financeiras em um dashboard simples e organizado.
 
-## React Compiler
+Este projeto foi desenvolvido como prática de desenvolvimento front-end durante os estudos na Alura.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Visualização do orçamento diário disponível
+- Acompanhamento do progresso mensal de economia
+- Listagem de movimentações financeiras
+- Visualização de saldo em diferentes contas bancárias
+- Adição de novas transações
+
+---
+
+## Interface
+
+O sistema apresenta um dashboard financeiro com informações organizadas em cartões, permitindo ao usuário visualizar rapidamente:
+
+- Orçamento diário disponível
+- Progresso de economia do mês
+- Histórico de movimentações financeiras
+- Saldo disponível em diferentes bancos
+
+---
+
+## Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+## Estrutura do projeto
+poupapp/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │
+│   └── Components/
+│       ├── Aside/
+│       ├── Banks/
+│       ├── Button/
+│       ├── Card/
+│       ├── CardBig/
+│       ├── Container/
+│       ├── DailyBudget/
+│       ├── icons/
+│       ├── Main/
+│       ├── ProgressBar/
+│       ├── SavingsSatatus/
+│       ├── SearchInput/
+│       ├── TransactionItem/
+│       ├── Transactions/
+│       └── Typography/
+│
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── App.jsx
+├── index.html
+├── README.md
+└── .gitignore
+
+
+
+Desenvolvido por Henrique
+Estudante de Engenharia de software.
+Seguindo curso React pela Alura.
+
+Se você gostou do projeto, considere deixar uma estrela no repositório!
