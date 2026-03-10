@@ -66,11 +66,9 @@ poupapp/
 ├── package.json
 ├── package-lock.json
 ├── vite.config.js
-├── App.jsx
 ├── index.html
 ├── README.md
 └── .gitignore
-
 
 
 Desenvolvido por Henrique
